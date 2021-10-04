@@ -24,16 +24,3 @@ const metOfficeData = got
     .catch(err => {
         console.log(err);
     });
-
-/* 
-    Location {
-        elevation: 56,
-        id: 72,
-        latitude: 87,
-        longitude: 678,
-        name: 'Surrey',
-        region: 'UK',
-        unitaryAuthArea: 'Red'
-      }
-*/
-    
