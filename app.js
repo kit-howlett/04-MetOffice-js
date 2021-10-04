@@ -21,14 +21,9 @@ const metOfficeData = got
         })
         return locations;
     })
-    // .then(locationArray => {
-    //     console.log(locationArray);
-    // })
     .catch(err => {
         console.log(err);
     });
-
-console.log(locations[0]);
 
 /* 
     Location {
