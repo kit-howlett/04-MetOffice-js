@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kit-howlett/04-MetOffice-js#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "got": "^11.8.2",
     "readline-sync": "^1.4.10"
   }
