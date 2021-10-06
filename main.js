@@ -56,6 +56,8 @@ app.listen(3000, () => {
   console.log(`Example app listening at http://localhost:3000`);
 });
 
+app.use(express.static('frontend'));
+
 function getLocationId(locationName, locationsArray) {
   const location = locationsArray.find(location => location.name === locationName);
   return location.id;
