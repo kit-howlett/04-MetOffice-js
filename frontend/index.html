@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Weather forecast</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>MET Office Weather Forecast</h1>
-    <form action="javascript:void(0)" onsubmit="void(0);" id="locationSearchForm">
-        Location:<br>
-        <input type="text" name="location" id="locationInputField">
-        <input type="submit" value="Submit">
-    </form>
-    <div id="results">
+    <div class="page-container">
+      <h1>MET Office Weather Forecast</h1>
+      <form
+        action="javascript:void(0)"
+        onsubmit="void(0);"
+        id="locationSearchForm"
+      >
+        Location:<br />
+        <input type="text" name="location" id="locationInputField" />
+        <input type="submit" value="Submit" />
+      </form>
+      <div id="results">
         <h2>Results</h2>
         <h3>Example forecast 1</h3>
         <strong>1/1/2000</strong>
         <ul>
-            <li>Wind direction: South east</li> 
-            <li>Chance of rain: 50%</li>
+          <li>Wind direction: South east</li>
+          <li>Chance of rain: 50%</li>
         </ul>
         <h3>Example forecast 2</h3>
         <strong>2/1/2000</strong>
         <ul>
-            <li>Wind direction: East</li>
-            <li>Chance of rain: 70%</li>
+          <li>Wind direction: East</li>
+          <li>Chance of rain: 70%</li>
         </ul>
+      </div>
     </div>
   </body>
   <script src="./forecast.js"></script>
